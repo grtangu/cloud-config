@@ -7,6 +7,13 @@ eureka:
     service-url:
       defaultZone: 'http://localhost:8761/eureka/'
 
+customer:
+  service:
+    name: customer-service
+product:
+  service:
+    url: http://product-service/products
+
 
 #### To enable SQL logging at Hibernate-level by providing the following logger options ###
 logging:
@@ -29,7 +36,7 @@ spring:
     username: root
     #password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
     password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     properties:
       hibernate:

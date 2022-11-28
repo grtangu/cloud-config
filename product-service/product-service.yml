@@ -21,10 +21,10 @@ logging:
 spring:
   datasource:
     url: 'jdbc:mysql://localhost:3306/productdb'
-    username: root
+    username: 'root'
     #password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
-    password: root
-    driver-class-name: org.mysql.Driver
+    password: 'root'
+    #driver-class-name: org.mysql.Driver
   jpa:
     hibernate:
       ##drop n create table again, good for testing, comment this in production; Possible values ..none, validate, update, create-drop; For embedded database create-drop is the default, for others none

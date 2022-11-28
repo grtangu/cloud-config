@@ -1,3 +1,6 @@
+app:
+  name: 'Product Service Default Configuration'
+
 #location of the discovery server
 eureka:
   client:

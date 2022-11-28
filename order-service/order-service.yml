@@ -11,24 +11,31 @@ eureka:
 #### To enable SQL logging at Hibernate-level by providing the following logger options ###
 logging:
   level:
-    org.hibernate:
-      SQL: debug
-      type.descriptor.sql: trace
+    org:
+      hibernate:
+        SQL: debug
+        type:
+          descriptor:
+            sql: trace
 
 
 ############# MySQL configuration ##############
 
 spring:
+  application:
+    name: order-service
   datasource:
-    url: 'jdbc:mysql://localhost:3306/orderdb'
+    url: jdbc:mysql://localhost:3306/orderdb
     username: root
     #password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
     password: root
-    driver-class-name: org.mysql.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ##drop n create table again, good for testing, comment this in production; Possible values ..none, validate, update, create-drop; For embedded database create-drop is the default, for others none
       ddl-auto: 'update'
       naming-strategy: 'org.hibernate.cfg.DefaultComponentSafeNamingStrategy'
     defer-datasource-initialization : true #Whether to defer DataSource initialization until after any EntityManagerFactory beans have been created and initialized.
-

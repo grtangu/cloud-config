@@ -19,8 +19,10 @@ logging:
 ############# MySQL configuration ##############
 
 spring:
+  application:
+    name: product-service
   datasource:
-    url: 'jdbc:mysql://localhost:3306/productdb'
+    url: jdbc:mysql://localhost:3306/productdb
     username: root
     #password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
     password: root
@@ -34,4 +36,3 @@ spring:
       ddl-auto: 'update'
       naming-strategy: 'org.hibernate.cfg.DefaultComponentSafeNamingStrategy'
     defer-datasource-initialization : true #Whether to defer DataSource initialization until after any EntityManagerFactory beans have been created and initialized.
-

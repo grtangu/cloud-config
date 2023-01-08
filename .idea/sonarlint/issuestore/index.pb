@@ -15,11 +15,3 @@ W
 'product-service/product-service-dev.yml,f\7\f7068542e8975e699d23c8acaddeb1eaa5d8af9e
 Y
 )customer-service/customer-service-dev.yml,c\4\c4a8648857cb3bc5ed883cb5ac50ce79e03dfd13
-?
-application.yml,1\1\1116e8e6e492a185f4df7f55ff557cb2e5ac869a
-S
-#product-service/product-service.yml,1\6\16fb741b8ce06708d1713a6826045d6a82e56829
-U
-%customer-service/customer-service.yml,b\d\bd3946b55655cba06bac244e602897e9e4cf0598
-O
-order-service/order-service.yml,9\4\9404d72ed3c133d4fe024d20930bb7804f0e2ade

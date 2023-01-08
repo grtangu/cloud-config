@@ -1,17 +1,6 @@
 app:
   name: 'Customer Service Default Configuration'
 
-#### To enable SQL logging at Hibernate-level by providing the following logger options ###
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: debug
-        type:
-          descriptor:
-            sql: trace
-
-
 ############# MySQL configuration ##############
 
 spring:

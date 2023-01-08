@@ -18,16 +18,3 @@ eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE}
-
-spring:
-  config:
-    import: ${SPRING_CONFIG_IMPORT}
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://dev-52510621.okta.com/oauth2/default
-
-okta:
-  oauth2:
-    issuer: https://dev-52510621.okta.com/oauth2/default

@@ -18,11 +18,3 @@ Y
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-U
-%customer-service/customer-service.yml,b\d\bd3946b55655cba06bac244e602897e9e4cf0598
-O
-order-service/order-service.yml,9\4\9404d72ed3c133d4fe024d20930bb7804f0e2ade
-S
-#product-service/product-service.yml,1\6\16fb741b8ce06708d1713a6826045d6a82e56829
-@
-application.yaml,f\b\fb6c4533957b1351e2052e323887d68b2e76c7b8

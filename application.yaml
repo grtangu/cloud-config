@@ -14,8 +14,8 @@ logging:
 #location of the discovery server
 eureka:
   instance:
-    preferIpAddress: true
+    preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
   client:
     service:
       url:
-        defaultZone: http://eureka-server:8761/eureka/
+        defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://eureka-server:8761/eureka/}

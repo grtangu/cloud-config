@@ -29,3 +29,16 @@ spring:
       ddl-auto: 'update'
       naming-strategy: 'org.hibernate.cfg.DefaultComponentSafeNamingStrategy'
     defer-datasource-initialization : true #Whether to defer DataSource initialization until after any EntityManagerFactory beans have been created and initialized.
+#location of the discovery server
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    service:
+      url:
+        defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+endpoints.shutdown.enabled: true
+management.endpoint.shutdown.enabled: true

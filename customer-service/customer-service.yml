@@ -31,3 +31,10 @@ eureka:
 
 endpoints.shutdown.enabled: true
 management.endpoint.shutdown.enabled: true
+# configuration endpoint info
+info:
+  app:
+    name: customer-service
+    description: Ecommerce Application
+    version: 1.0.0
+

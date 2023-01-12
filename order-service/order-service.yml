@@ -15,7 +15,7 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://localhost:3306/orderdb
+    url: jdbc:mysql://mysqldb/orderdb
     username: root
     #password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
     password: root

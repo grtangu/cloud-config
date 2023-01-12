@@ -14,8 +14,19 @@ logging:
 #location of the discovery server
 eureka:
   instance:
-    preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
+    preferIpAddress: true
   client:
     service:
       url:
-        defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://eureka-server:8761/eureka/}
+        defaultZone: http://localhost:8761/eureka/
+#security related configuration
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-52510621.okta.com/oauth2/default
+
+okta:
+  oauth2:
+    issuer: https://dev-52510621.okta.com/oauth2/default

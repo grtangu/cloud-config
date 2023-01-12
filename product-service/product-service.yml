@@ -8,7 +8,7 @@ spring:
   application:
     name: product-service
   datasource:
-    url: jdbc:mysql://mysqldb/productdb
+    url: jdbc:mysql://mysql-product-db/productdb
     username: root
     #password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
     password: root

@@ -14,7 +14,3 @@ Y
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-S
-#order-service/order-service-dev.yml,d\9\d9f902a74279963af7b4407844aeafdde4be13e3
-T
-$order-service/order-service-prod.yml,b\e\be13d61d3f09dba3c4ced1ce8845ff37280c22c3

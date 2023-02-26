@@ -7,8 +7,6 @@ Z
 *customer-service/customer-service-prod.yml,b\1\b1a9ec06e94c8f3b5c9ba00ef328c6c08b387067
 X
 (product-service/product-service-prod.yml,1\5\15736f0c4bd60f1d5db6958fe82cef67e22eb9a7
-W
-'product-service/product-service-dev.yml,f\7\f7068542e8975e699d23c8acaddeb1eaa5d8af9e
 Y
 )customer-service/customer-service-dev.yml,c\4\c4a8648857cb3bc5ed883cb5ac50ce79e03dfd13
 :
